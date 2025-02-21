@@ -224,7 +224,7 @@ export default function Home() {
           {!loading && !error && (
             <div className="mb-4">
               <input //searchBar
-                type="text"
+                type="search"
                 value={searchTerm}
                 onChange={handleSearch}
                 placeholder="Search for products..."
